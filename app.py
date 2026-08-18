@@ -15,3 +15,4 @@ def get_user_by_email(email):
     # Step 4: similar SQL exists in billing/invoice_sql.py (not imported — RAG target)
     cleaned = clean_user_id(email)
     return query(f"SELECT * FROM users WHERE email = '{cleaned}'")
+

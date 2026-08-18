@@ -1,0 +1,2 @@
+# DEMO ONLY — old pin so Trivy can report a known CVE if `trivy` is installed.
+requests==2.6.0

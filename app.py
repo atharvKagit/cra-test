@@ -14,3 +14,4 @@ def get_user_by_email(email):
     return query(f"SELECT * FROM users WHERE email = '{cleaned}'")
 
 
+

@@ -16,3 +16,5 @@ def get_user_by_email(email):
     cleaned = clean_user_id(email)
     return query(f"SELECT * FROM users WHERE email = '{cleaned}'")
 
+
+# dashboard-title-demo
